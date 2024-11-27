@@ -71,3 +71,14 @@ function countFinalPoints(twoPointers, threPointers){
 
 console.log(countFinalPoints(1, 1));
 console.log(countFinalPoints(10, 10));
+
+// Challenge: Less Than 100?
+// MVP
+// Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+
+function isLessThanHundred(num1, num2) {
+    return num1+num2 < 100 ? true : false;
+}
+
+console.log(isLessThanHundred(22, 15));
+console.log(isLessThanHundred(83, 34));
